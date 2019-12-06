@@ -1,0 +1,114 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Faker\Generator as Faker;
+class TablePackageTypeSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run(Faker $faker)
+    {
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>1,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>1,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>1,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>2,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>2,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>2,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>3,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>3,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>3,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>4,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>4,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+        \App\PackageTypes\Domain\Models\PackageType::create([
+            'package_id'=>4,
+            'adult_price'=>$faker->randomNumber(),
+            'child_6_12_price'=>$faker->randomNumber(),
+            'child_2_6_price'=>$faker->randomNumber(),
+            'infant_price'=>$faker->randomNumber(),
+            'currency_id'=>1
+        ]);
+    }
+}
